@@ -14,7 +14,7 @@ CREATE TABLE laboratorios (
     capacidad INT
 );
 
--- EQUIPOS  ❗ IMPORTANTE
+-- EQUIPOS
 CREATE TABLE equipos (
     id_equipo SERIAL PRIMARY KEY,
     nombre VARCHAR(100),
